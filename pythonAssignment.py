@@ -42,8 +42,8 @@ else:
 
 # 4. Ask for 2 numbers and respond with them being added together.
    
-p= input('please enter the first number')
-l=input('pleas enter the second number')
+p= input('please enter the first number:  ')
+l=input('please enter the second number:  ')
 
 sum=int(p)+int(l)
 
