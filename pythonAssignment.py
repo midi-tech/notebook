@@ -52,8 +52,6 @@ else:
 
 
 
-
-
 thefirstnumberenterd= input('please enter the first number:  ')
 thesecondnumberenterd=input('pleas enter the second number:  ')
    
