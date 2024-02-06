@@ -32,6 +32,9 @@ with open('output.txt', 'w') as file:
 with open('output.txt', 'r') as file:
     print(file.read())
 
+from datetime import datetime
+
 # appending to a file
 with open('log.txt', 'a') as file:
-    print(f'{string} {number}', file=file)
+    now = datetime.now()
+    print(f'{now}: {string} {number}', file=file)
