@@ -27,4 +27,5 @@ while secondNumber is None:
         print(f'\n"{entered}" is not a number...try again!\n')
 
 # we now know that we have two numbers
-print(f'{firstNumber} + {secondNumber} = {firstNumber + secondNumber}')
+result = firstNumber + secondNumber
+print(f'{firstNumber} + {secondNumber} = {result}')

@@ -1,8 +1,8 @@
 # a "better" implementation of addNumbers
 
-def getNumber():
+def getNumber(prompt='Please enter a number: '):
     while True:
-        entered = input('Please enter a number: ')
+        entered = input(prompt)
 
         print(f'entered: {entered}')
 
@@ -15,7 +15,7 @@ def getNumber():
         
 
 firstNumber = getNumber()
-secondNumber = getNumber()
+secondNumber = getNumber('Please enter another number: ')
 
 # we now know that we have two numbers
 print(f'{firstNumber} + {secondNumber} = {firstNumber + secondNumber}')
