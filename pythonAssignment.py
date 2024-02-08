@@ -72,12 +72,12 @@ print('your two numbers added together are :',sum)
 
 
 
-# thefirstnumberenterd= input('please enter the first number:  ')
-# thesecondnumberenterd=input('pleas enter the second number:  ')
+thefirstnumberenterd= input('please enter the first number:  ')
+thesecondnumberenterd=input('pleas enter the second number:  ')
    
-# sum=int(thefirstnumberenterd)+int(thesecondnumberenterd)
+sum=int(thefirstnumberenterd)+int(thesecondnumberenterd)
 
-# print('your two numbers added together are :',sum)
+print('your two numbers added together are :',sum)
 
 # if thefirstnumberenterd  or thesecondnumberenterd == ():
 #    print('you didnt enter a number you enterd a letter !!')
@@ -89,7 +89,13 @@ print('your two numbers added together are :',sum)
 
 
 
-
+def main():
+  x=input("Enter the first number:")
+  y=input("Enter the second number:")
+  i=0
+  for i in range (x,y):
+    if i%2==0:
+      print (i)
 
 
 
